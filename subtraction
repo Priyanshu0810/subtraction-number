@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int a,b,c;
+    clrscr();
+    printf("Enter the first number a/n");
+    scanf("%d",&a);
+
+    printf("Enter the second number b/n");
+    scanf("%d",&b);
+
+    printf("Enter the third number c/n");
+    scanf("%d",&c);
+    
+    printf("The subtraction is %d\n",a-b-c);
+
+    getch();
+}
